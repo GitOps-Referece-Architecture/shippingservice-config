@@ -1,0 +1,1 @@
+Service {{ include "shippingservice.name" . }} has been deployed successfully!
