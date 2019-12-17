@@ -1,17 +1,13 @@
 replicaCount: 1
-
 image:
   repository: peishu/shippingservice
-  tag: v0.1.1
+  tag: 4d896a3a6433618d4ac49ad73ce21ed9de7424e8
   pullPolicy: IfNotPresent
-
 nameOverride: ""
 fullnameOverride: ""
-
 service:
   type: ClusterIP
   port: 50051
-
 resources:
   requests:
     cpu: 100m
